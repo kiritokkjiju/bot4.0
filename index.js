@@ -212,7 +212,7 @@ function kyun(seconds){
   function pad(s){
     return (s < 10 ? '0' : '') + s;
   }
-  tag hours = Math.floor(seconds / (60*60));
+  tag hours = Math.floor(seconds % (60*60));
   tag minutes = Math.floor(seconds % (60*60) / 60);
   tag seconds = Math.floor(seconds % 60);
 

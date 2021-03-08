@@ -6,8 +6,8 @@ const help = () => {
 ║
 ╠➥ 𝐃𝐀𝐑𝐊 𝐁𝐎𝐓
 ╠➥ *3.2*
-╠➥ 𝐃𝐎𝐍𝐎:  ⃬⃗𝐷𝐴𝑅𝐾⃖  ☔
-╠➥ *wa.me/+5522996215481*
+╠➥ 𝐃𝐎𝐍𝐎:  𝐾𝐼𝑅𝐼𝑇𝑂 𖨆 ☔
+╠➥ *wa.me/+5573981044096*
 ╠➥ 𝐒𝐓𝐀𝐓𝐔𝐒: ON
 ║
 ╠══✪〘 NOVIDADES 〙✪══
@@ -252,13 +252,13 @@ const help = () => {
 ║Mandar a msg sem o prefixo
 ╠════════════════════
 ║
-║184 *bah*
-║185 *oii*
-║186 *bv*
-║187 *canta ai bot*
-║188 *grita*
-║189 *digita*
-║190 *machista*
+║🗣️184 *bah*
+║🗣️185 *oii*
+║🗣️186 *bv*
+║🗣️187 *canta ai bot*
+║🗣️188 *grita*
+║🗣️189 *digita*
+║🗣️190 *machista*
 ║
 ╠══✪〘 OUTROS /3 〙✪══
 ║
@@ -271,27 +271,27 @@ const help = () => {
 ║_*Say Cat*_
 ╠════════
 ║
-║192 *${prefix}say1*
-║193 *${prefix}say2*
-║194 *${prefix}say3*
-║195 *${prefix}say4*
+║🎥192 *${prefix}say1*
+║🎥193 *${prefix}say2*
+║🎥194 *${prefix}say3*
+║🎥195 *${prefix}say4*
 ║
 ╠══EDITS »
 ║_*XXXTENTACIONS*_
 ╠═══════════════
 ║
-║196 *${prefix}xxx1*
-║197 *${prefix}xxx2*
+║🖤196 *${prefix}xxx1*
+║🖤197 *${prefix}xxx2*
 ║
 ╠══EDITS »
 ║_*VARIADAS*_
 ╠═══════════════
 ║
-║198 *${prefix}teto1*
-║199 *${prefix}edit1*
-║200 *${prefix}edit2*
-║201 *${prefix}edit3*
-║202 *${prefix}edit4*
+║🎬198 *${prefix}teto1*
+║🎬199 *${prefix}edit1*
+║🎬200 *${prefix}edit2*
+║🎬201 *${prefix}edit3*
+║🎬202 *${prefix}edit4*
 ╠═══════════════
 ║
 ║ *MAIS COMANDOS*
@@ -299,16 +299,21 @@ const help = () => {
 ║
 ╠══✪〘 𝗗𝗢𝗡𝗢 〙✪══
 ║
-║ *NOME: 𝐷𝐴𝑅𝐾⃖  ☔*
-║ *INSTA: th.darkys*
-║ *WPP: wa.me/+5521997123716*
+║   *NOME: 𝐾𝐼𝑅𝐼𝑇𝑂  ☔*
+║        
+║         
+║     INSTA: *sadzkkk*
+║ 
+║  *WPP: wa.me/5573981044096*
+║               by:dark
+║          Canal do Criador
 ║ *YOUTUBE: https://bit.ly/3qAjeNz*
 ║
 ║  *"Peita ou respeita 🐊🚩*
-║  *"kibadores, vão se fuder"*
+║ *"kibadores, vão se fuder"*
 ║
 ║
-╚═〘 𝐃𝐀𝐑𝐊 𝐁𝐎𝐓 〙`
+╚═〘 𝐊𝐈𝐑𝐈𝐓𝐎 𝐁𝐎𝐓 〙`
 }
 
 exports.help = help

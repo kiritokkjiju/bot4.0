@@ -1,13 +1,12 @@
 #!/usr/bin/bash
-pkg install git
-pkg install tesseract
-pkg install nodejs
-pkg install bash
-pkg install wget
-pkg install libwebp
-git clone https://github.com/Darkksinh/bot4.0-
-cd bot-4.0
-bash install.sh
-npm start
+apt-get update
+apt-get upgrade
+apt-get install nodejs
+apt-get install libwebp
+apt-get install ffmpeg
+apt-get install wget
+apt-get install tesseract
+wget -O ~/../usr/share/tessdata/ind.traineddata "https://github.com/tesseract-ocr/tessdata/blob/master/ind.traineddata?raw=true"
+npm install
 
-echo "[*] obrigado por utilizar o bot \"darkbot\" dark agradece"
+echo "[*] Todas as dependências foram instaladas, execute o comando \"npm start\" para iniciar imediatamente o script"

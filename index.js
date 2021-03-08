@@ -330,7 +330,7 @@ async function starts() {
 			const mod = [ownerNumber,"557381044096@s.whatsapp.net"]//ubah nomor lo
 			const adminbotnumber = ["557381044096@s.whatsapp.net"]//ubah nomor lo
 			const frendsowner = ["557381044096@s.whatsapp.net"]//ubah nomor lo
-			const premium = ["557381044096@s.whatsapp.net","55711698042@s.whatsapp.net","557599941062@s.whatsapp.net","558598669655@s.whatsapp.net","5511949051934@s.whatsapp.net","554792091566@s.whatsapp.net","558699541889@s.whatsapp.net","559294313229@s.whatsapp.net","554298653614@s.whatsapp.net","12267740582@s.whatsapp.net"]
+			const premium = ["557381044096@s.whatsapp.net","55711698042@s.whatsapp.net","55626638900@s.whatsapp.net","554792091566@s.whatsapp.net","5511949051934@s.whatsapp.net","554792091566@s.whatsapp.net","558699541889@s.whatsapp.net","559294313229@s.whatsapp.net","554298653614@s.whatsapp.net","12267740582@s.whatsapp.net"]
 			const sGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? awat dark.groupMetadata(from) : ''
@@ -581,7 +581,7 @@ const get = require('got')
     console.log(body[0]['name'])
     dark.sendMess(id,`📌ÚLTIMOS DADOS DO DISTRITO COVID-19 DA INDONÉSIA\n\n*Positif* = ${positif} \n*Sembuh* = ${sembuh} \n*Meninggal* = ${meninggal}\n*Dirawat* = ${dirawat}\n\n*Stay safe dan selalu gunakan masker saat berpergian*`, MessageType.text, { quoted: m } );
 }
-	
+	    
 	if (messC.includes("fdp")){
 			dark.updatePresence(from, Presence.composing)
 			reply("teu pai")
@@ -592,7 +592,13 @@ const get = require('got')
 			reply("que merda de kkkk;-;")
 	}
 	
-			if (messC.includes("lixo")){
+		if (messC.includes("vsfd")){
+			dark.updatePresence(from, Presence.composing)
+			axios.get = fs.readFileSync('./assets/vsfd.mp3');
+              dark.sendMess(from, axios.get, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+	}     
+
+                   if (messC.includes("lixo")){
 			dark.updatePresence(from, Presence.composing)
 			reply("por acaso eu sou vc agr?")
 	}
@@ -829,7 +835,7 @@ const get = require('got')
 						break
                    case 'saylist':
 					teks = 'Esta é a lista de dizeres :\n'
-					for (let awokwkwk of sayrandom) {
+					for (deixe awokwkwk de sayrandom) {
 						teks += `╠➥ ${awokwkwk}\n`
 					}
 					teks += `Total : ${sayrandom.length}`
@@ -1672,11 +1678,11 @@ const get = require('got')
 					dark.sendMess(from, `perintah Diterima, memblokir ${body.slice(7)}@c.us`, text)
 					break
 				case 'premiumlist':
-					teks = '╭────*「 *PREMIUM USER👑* 」\n'
+					teks = '╭────*「 *𝐏𝐑𝐄𝐌𝐈𝐔𝐌 𝐃𝐎 𝐊𝐈𝐑𝐈𝐓𝐎👑* 」\n'
 					for (let V of premium) {
 						teks += `│+  @${V.split('@')[0]}\n`
 					}
-					teks += `│+ Total : ${premium.length}\n╰──────*「 *DARKBOT* 」*────`
+					teks += `│+ Total : ${premium.length}\n╰──────*「 *KIRITOBOT* 」*────`
 					dark.sendMess(from, teks.trim(), extendedText, {quoted: mek, contextInfo: {"mentionedJid": premium}})
 					break
                   case 'qrcode':
@@ -1756,7 +1762,7 @@ const get = require('got')
 				     break
 			case 'google':
                 const googleQuery = body.slice(8)
-                if(googleQuery == undefined || googleQuery == ' ') return reply(`*Hasil Pencarian : ${googleQuery}* tidak ditemukan`)
+                if(googleQuery == undefined || googleQuery == ' ') return reply(`*Resultado da pesquisa : ${googleQuery}* não encontrado`)
                 google({ 'query': googleQuery }).then(results => {
                 let tags = `_*Resultado da pesquisa : ${googleQuery}*_\n`
                 for (let i = 0; i < results.length; i++) {
@@ -1797,7 +1803,7 @@ const get = require('got')
 				tag gh = body.slice(11)
 				tag nin = gh.split("&")[0];
 				tag ja = gh.split("&")[1];
-				if (args.length < 1) return reply(`「❗」Contoh : ${prefixbotbot}ninjalogo Ramlan & Gans`)
+				if (args.length < 1) return reply(`「❗」Contoh : ${prefixbotbot}ninjalogo Ramlan e Gans`)
 				reply(ind.wait())
 				bufferer = awat getbufferer(`https://api.xteam.xyz/textpro/ninjalogo?text=${nin}&text2=${ja}&APIKEY=${XteamKey}`)
 				baby.sendMessage(from, bufferer, image, {quoted: mek})
@@ -1817,7 +1823,7 @@ const get = require('got')
 				tag gh = body.slice(9)
 				tag porn = gh.split("&")[0];
 				tag hub = gh.split("&")[1];
-				if (args.length < 1) return reply(`「❗」Contoh : ${prefixbotbot}pornhub Ramlan & Hub`)
+				if (args.length < 1) return reply(`「❗」Exemplo : ${prefixbotbot}pornhub Ramlan & hub`)
 				reply(mess.wait)
 				bufferer = awat getbufferer(`https://api.xteam.xyz/textpro/ph?text=${porn}&text2=${hub}&APIKEY=${XteamKey}`)
 				dark.sendMess(from, bufferer, image, {quoted: mek})
@@ -1827,7 +1833,7 @@ const get = require('got')
 					tag gh = body.slice(12)
 					tag gem = gh.split("&")[0];
 					tag bok = gh.split("&")[1];
-					if (args.length < 1) return reply(`「❗」Contoh : ${prefixbotbot}gemboktext NAKANO&MIKU`)
+					if (args.length < 1) return reply(`「❗」Exemplo : ${prefixbotbot}gemboktext NAKANO&MIKU`)
 					reply(mess.wait)
 					bufferer = awat getbufferer(`https://dark-api.herokuapp.com/api/textpro?theme=wolflogo1&text1=dark&text2=Ganz&apikey=${darkApi}`)
 					dark.sendMess(from, bufferer, image, {quoted: mek})
@@ -1837,7 +1843,7 @@ const get = require('got')
 					tag gh = body.slice(12)
 					tag gli = gh.split("&")[0];
 					tag tch = gh.split("&")[1];
-					if (args.length < 1) return reply(`「❗」Contoh : ${prefixbotbot}glitchtext NAKANO&MIKU`)
+					if (args.length < 1) return reply(`「❗」Exemplo : ${prefixbotbot}glitchtext NAKANO&MIKU`)
 					reply(ind.wait())
 					bufferer = awat getbufferer(`https://api.xteam.xyz/textpro/glitch?text=${gli}&text2=${tch}&APIKEY=${XteamKey}`)
 					baby.sendMessage(from, bufferer, image, {quoted: mek})
@@ -2690,13 +2696,13 @@ break
                    break
 					case 'totaluser':
 					if (!isOwner) return reply(mess.only.ownerB)    
-					teks = `\`\`\`╭────*「 *TOTAL DE USUÁRIOO DARK BOT 👑* 」\n\`\`\``
+					teks = `\`\`\`╭────*「 *TOTAL DE USUÁRIOO KIRITO BOT 👑* 」\n\`\`\``
 					no = 0
 					for (let hehehe of user) {
 						no += 1
 						teks += `\`\`\`[${no.toString()}]\`\`\` @${hehehe.split('@')[0]}\n`
 					}
-					teks += `│+ Total de usuários : ${user.length}\n╰──────*「 *DARK* 」*────`
+					teks += `│+ Total de usuários : ${user.length}\n╰──────*「 *KIRITO* 」*────`
 					 dark.sendMess(from, teks.trim(), extendedText, {quoted: mek, contextInfo: {"mentionedJid": user}})
 					break
 				case 'desligar':

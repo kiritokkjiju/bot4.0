@@ -69,9 +69,9 @@ const instagram = 'http://www.instagram.com/';
 const aktif = '08:00 - 22:00';
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n' 
-            + 'FN:Dark\n' // Nama kamu
+            + 'FN:Kirito\n' // Nama kamu
             + 'ORG:Lexa;\n' // Nama bot
-            + 'TEL;type=CELL;type=VOICE;waid=5522996215481:+55 2299621-5481\n' //Nomor whatsapp kamu
+            + 'TEL;type=CELL;type=VOICE;waid=557381044096:+55 7381-0440-96\n' //Nomor whatsapp kamu
             + 'END:VCARD'
 const ngonsol = JSON.parse(fs.readFileSync('./settings/Miku.json'))
 const {
@@ -90,7 +90,7 @@ const {
 prefixbotbot = '.','!','#'
 blocked = []
 limitawal = '999'
-cr = '*Dark dominando*'
+cr = '*Kirito dominando*'
 
 /*********** LOAD FILE ***********/
 const _leveling = JSON.parse(fs.readFileSync('./database/group/leveling.json'))
@@ -310,27 +310,27 @@ async function starts() {
 					levelnol: '*error* 0 °-°',
 					error: {
 				stick: '*Bem, falhe, tente novamente ^_^*',
-				Iv: '𝗠𝗮𝗮𝗳 𝗹𝗶𝗻𝗸 𝘁𝗶𝗱𝗮𝗸 𝘃𝗮𝗹𝗶𝗱☹️'
+				Iv: 'desculpe,o link é inválido☹️'
 				{,
 				only: {
 					group: '[❗] Este comando só pode ser usado em grupos! ❌',
 					premium: '[❗] ESTE PEDIDO É SO PARA *USUÁRIOS PREMIUMS*',
-					mod: '[❗] ESTE PEDIDO É ESPECÍFICO PARA USUARIO MOD DARK BOT*',
+					mod: '[❗] ESTE PEDIDO É ESPECÍFICO PARA USUARIO MOD KIRITO BOT*',
 					benned: 'Você para a banda, por favor, contate o proprietário para abrir sua banda',
 					ownerG: '[❗] Proprietário? Este é um recurso especial para o proprietário do bot ❌',
 					ownerB: '[❗] Proprietário? Este é um recurso especial para o proprietário do bot ❌',
-					userB: `──「 LISTA 」──\nOlá Kak !\nDesculpe, irmã. Você não está registrado como amigo de Dark. Registre-se para fazer amizade com o bot Dark por meio, \n\nCommand : ${prefixbotbot}daftar nama|idade\nExemplo : ${prefixbotbot}daftar Dark|17\n\n──「 Dark BOT 」──`,
+					userB: `──「 LISTA 」──\nOlá Kak !\nDesculpe, irmã. Você não está registrado como amigo de Kirito. Registre-se para fazer amizade com o bot kirito por meio, \n\nCommand : ${prefixbotbot}daftar nome|idade\nExemplo : ${prefixbotbot}daftar Kiri1to|15\n\n──「 Kirito BOT 」──`,
 					admin: '[❗] Este comando só pode ser usado por administradores de grupo! ❌',
 					Badmin: ' [❗] Este comando só pode ser usado quando o bot se torna administrador! ❌',
 				}
 			}
 
 			const botNumber = dark.user.jid
-			const ownerNumber = ["5522996215481@s.whatsapp.net"] // replace this with your number
-			const mod = [ownerNumber,"5522996215481@s.whatsapp.net"]//ubah nomor lo
-			const adminbotnumber = ["5522996215481@s.whatsapp.net"]//ubah nomor lo
-			const frendsowner = ["5522996215481@s.whatsapp.net"]//ubah nomor lo
-			const premium = ["5522996215481@s.whatsapp.net","559784130980@s.whatsapp.net","557599941062@s.whatsapp.net","558598669655@s.whatsapp.net","5511949051934@s.whatsapp.net","554792091566@s.whatsapp.net","558699541889@s.whatsapp.net","559294313229@s.whatsapp.net","554298653614@s.whatsapp.net","12267740582@s.whatsapp.net"]
+			const ownerNumber = ["557381044096@s.whatsapp.net"] // replace this with your number
+			const mod = [ownerNumber,"557381044096@s.whatsapp.net"]//ubah nomor lo
+			const adminbotnumber = ["557381044096@s.whatsapp.net"]//ubah nomor lo
+			const frendsowner = ["557381044096@s.whatsapp.net"]//ubah nomor lo
+			const premium = ["557381044096@s.whatsapp.net","55711698042@s.whatsapp.net","557599941062@s.whatsapp.net","558598669655@s.whatsapp.net","5511949051934@s.whatsapp.net","554792091566@s.whatsapp.net","558699541889@s.whatsapp.net","559294313229@s.whatsapp.net","554298653614@s.whatsapp.net","12267740582@s.whatsapp.net"]
 			const sGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? awat dark.groupMetadata(from) : ''
@@ -2256,7 +2256,8 @@ break
 					anu = awat fetchJson(`https://arugaz.herokuapp.com/api/howgay`, {method: 'get'})
 					reply('De acordo com o percentual gay:\n\n'+anu.desc+anu.persen)
 					break
-			  case 'next':               
+			  case 'next':
+               
                 if (isGroup) return  reply( 'NÃO PODE ESTAR EM GRUPO KAK')
                 awat reply('Ache um companheiro >_<')
                 awat reply(`wa.me/${anug}`)

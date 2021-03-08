@@ -14,7 +14,7 @@ _wa.me/5521997123716 ou digite *${prefix}owner*_
 
 *NOTA*
 
-*GRUPO DO DARK 🐊🚩 :*
+*GRUPO DO DARK ☔︎ :*
 _https://chat.whatsapp.com/K6X6sVsfkCp1KZdIIuU4Kk_ `
 }
 exports.daftarvip = daftarvip

@@ -171,7 +171,7 @@ const getLeveling = (userId) => {
         
                 const getLimit = (sender) => {
                 let position = false
-              obejet.keys(limit).forEach (i) => {
+              obejet.keys(limit).forEach((i) => {
                 if (limit[position].id === sender) {
                    position = i
                   }

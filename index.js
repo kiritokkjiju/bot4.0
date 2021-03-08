@@ -589,7 +589,7 @@ const get = require('got')
 	
 		if (messC.includes("kkkkkk")){
 			dark.updatePresence(from, Presence.composing)
-			reply("kskskskk")
+			reply("que merda de kkkk;-;")
 	}
 	
 			if (messC.includes("lixo")){
@@ -602,7 +602,7 @@ const get = require('got')
 			reply("é bot seu analfabeto")
 	}
 	
-			if (messC.includes("darkbot")){
+			if (messC.includes("kiritobot")){
 			dark.updatePresence(from, Presence.composing)
 			reply("oiii")
 	}
